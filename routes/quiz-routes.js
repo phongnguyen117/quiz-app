@@ -11,7 +11,6 @@ routerQuiz.get('/', (req, res, next) => {
     // Get All Questions
     questionsModel.find({}, function (err, items) {
         if (err) {
-            console.log(err)
             res.json({ err: err })
         } else {
             res.json({ questions: items })

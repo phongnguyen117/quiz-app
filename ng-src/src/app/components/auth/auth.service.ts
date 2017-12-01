@@ -29,7 +29,7 @@ export class Auth {
 
     // Add callback for lock `authenticated` event
     this.lock.on("authenticated", (authResult) => {
-
+      console.log(authResult, 2222222222  );
       localStorage.setItem('id_token', authResult.idToken);
 
       // Fetch profile information

@@ -1,6 +1,6 @@
 {
     "name": "quiz-app",
-    "version": "0.1",
+    "version": "0.0.1",
     "description": "Trac nghiem",
     "main": "server.js",
     "scripts": {
@@ -10,9 +10,16 @@
     "author": "Phong Nguyen",
     "license": "ISC",
     "dependencies": {
-        "express": "4.15.3",
+        "bcrypt": "^1.0.2",
         "body-parser": "1.17.2",
+        "cookie-parser": "~1.4.3",
         "cors": "2.8.3",
-        "mongoose": "4.10.7"
+        "debug": "~2.6.0",
+        "dotenv": "^4.0.0",
+        "express": "4.15.3",
+        "jsonwebtoken": "^7.3.0",
+        "lodash": "^4.17.4",
+        "mongoose": "4.10.7",
+        "morgan": "~1.7.0"
     }
 }
